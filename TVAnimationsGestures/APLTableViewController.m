@@ -397,7 +397,7 @@ static NSString *SectionHeaderViewIdentifier = @"SectionHeaderViewIdentifier";
     [self dismissViewControllerAnimated:YES completion:NULL];
     if (result == MFMailComposeResultFailed) {
         // In production, display an appropriate message to the user.
-        NSLog(@"Mail send failed with error: %@", error);
+        NSLog(@"Error: Mail send failed with error: %@", error);
     }
 }
 
